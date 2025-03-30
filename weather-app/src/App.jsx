@@ -9,7 +9,7 @@ import { RecentSearches } from './component/RecentSearches';
 import { ForecastCard } from './component/ForecastCard';
 
 const API_KEY = '8fd9fe1c533cfb505daf7e2deb2598f8';
-const API_BASE_URL = 'http://api.weatherstack.com/current';
+const API_BASE_URL = 'https://api.weatherstack.com/current';
 function App() {
   const [weather, setWeather] = useState(null);
   const [loading, setLoading] = useState(false);
